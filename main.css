@@ -94,7 +94,7 @@ main {
 @media screen and (min-width: 750px) {
 
     main {
-        height: 97%;
+        height: 97.5%;
     }
     
     .card {
@@ -104,14 +104,16 @@ main {
         margin: 7rem auto;
     }
 
-    .card__header {
-        height: auto;
-        width: 45%;
+    .card__header, .card__header__image {
         border-radius: 0 15px 15px 0;
     }
 
+    .card__header {
+        height: auto;
+        width: 45%;
+    }
+
     .card__header__image {
-        border-radius: 0 15px 15px 0;
         height: 100%
     }
 
