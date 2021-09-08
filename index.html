@@ -5,40 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <title>Frontend Mentor | Stats preview card component</title>
-    <style>
-        :root {
-            /*Primary Colors*/
-            --very-dark-blue: hsl(233, 47%, 7%); /*Main Background*/
-            --dark-desaturated-blue: hsl(244, 38%, 16%); /*card background*/
-            --soft-violet: hsl(277, 64%, 61%); /*Accent*/
-            
-            /*Neutral Colors*/
-            --white: hsl(0, 0%, 100%); /*Main heading, stats*/
-            --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75); /*Main Paragraph*/
-            --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6); /*Stat Headings*/
-
-            /*font-weights*/
-            --bold: 400;
-            --bolder: 700;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        body {
-            font-size: 15px;
-        }
-    </style>
 </head>
 <body>
     <main>
         <section class="card">
             <header class="card__header">
-
+                <img class="card__header__image" src="img/image-header-mobile.jpg" alt="">
             </header>
             <div class="card__details">
                 <h1 class="card__details__title">Get <span>insights</span> that help your business grow.</h1>
@@ -52,21 +32,21 @@
                             10k+
                         </span>
                         <br/>
-                        companies
+                        COMPANIES
                     </p>
                     <p class="card__details__stats__text">
                         <span>
                             314
                         </span>
                         <br/>
-                        templates
+                        TEMPLATES
                     </p>
                     <p class="card__details__stats__text">
                         <span>
                             12M+
                         </span>
                         <br/>
-                        queries
+                        QUERIES
                     </p>
                 </div>
             </div>
